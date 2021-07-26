@@ -35,6 +35,11 @@ class DetailScreen extends StatelessWidget {
                     ),
                 )
             ),
+            Container(
+              child: Row(
+                children: <Widget>[],
+              ),
+            )
 
           ],
         ),
