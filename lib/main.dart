@@ -45,6 +45,20 @@ class DetailScreen extends StatelessWidget {
                       Text('Open Everydary'),
                     ],
                   ),
+                  Column(
+                    children: <Widget>[
+                      Icon(Icons.access_time),
+                      SizedBox(height: 8.0), // membuat kotak untuk memberi jarak
+                      Text('09:00 - 20:00'),
+                    ],
+                  ),
+                  Column(
+                    children: <Widget>[
+                      Icon(Icons.monetization_on),
+                      SizedBox(height: 8.0), // membuat kotak untuk memberi jarak
+                      Text('Rp. 25.000'),
+                    ],
+                  ),
                 ],
               ),
             )
