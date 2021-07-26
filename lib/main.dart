@@ -35,6 +35,7 @@ class DetailScreen extends StatelessWidget {
                     ),
                 )
             ),
+
             Container(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
