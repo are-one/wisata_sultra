@@ -40,6 +40,8 @@ class DetailScreen extends StatelessWidget {
                 children: <Widget>[
                   Column(
                     children: <Widget>[
+                      Icon(Icons.calendar_today),
+                      Text('Open Everydary'),
                     ],
                   ),
                 ],
