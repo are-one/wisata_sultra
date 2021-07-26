@@ -63,7 +63,16 @@ class DetailScreen extends StatelessWidget {
                   ),
                 ],
               ),
-            )
+            ),
+
+            Container(
+              padding: EdgeInsets.all(16.0),
+              child: Text(
+                'Pulau Bokori adalah tempat yang memiliki keindahan alam memukau di Sulawesi Tenggara. Pasti yang melewatkan keindahan tempat ini akan menyesal. Agar bisa sampai pulau satu ini harus menggunakan perahu terlebih dahulu. Setelah selesai menyebrang pasti mata akan dimanjakan dengan view yang luar biasa.',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 16.0),
+              ),
+            ),
 
           ],
         ),
