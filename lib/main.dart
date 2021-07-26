@@ -13,3 +13,10 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class DetailScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
