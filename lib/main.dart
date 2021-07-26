@@ -41,6 +41,7 @@ class DetailScreen extends StatelessWidget {
                   Column(
                     children: <Widget>[
                       Icon(Icons.calendar_today),
+                      SizedBox(height: 8.0), // membuat kotak untuk memberi jarak
                       Text('Open Everydary'),
                     ],
                   ),
