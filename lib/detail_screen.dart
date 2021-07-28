@@ -62,7 +62,7 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
 
-              Image.network('https://i2.wp.com/mediakendari.com/wp-content/uploads/2020/01/PSX_20200121_183134.jpg'),
+              Image.network('https://instagram.fupg2-2.fna.fbcdn.net/v/t51.2885-15/e35/17819373_283291672112296_542182876012085248_n.jpg?_nc_ht=instagram.fupg2-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=yLMohoEGPTQAX_breaF&edm=AABBvjUBAAAA&ccb=7-4&oh=958849efc1ee353d32fb6323e07bce17&oe=610897F4&_nc_sid=83d603'),
 
               Image.network('https://genpi.id/wp-content/uploads/2020/09/Foto-Gambar-Pulau-Bokori-Soropia-Kabupaten-Konawe-Sulawesi-Tenggara-dheswa.jpg'),
 
