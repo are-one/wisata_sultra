@@ -62,11 +62,20 @@ class DetailScreen extends StatelessWidget {
                 ),
               ),
 
-              Image.network('https://instagram.fupg2-2.fna.fbcdn.net/v/t51.2885-15/e35/17819373_283291672112296_542182876012085248_n.jpg?_nc_ht=instagram.fupg2-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=yLMohoEGPTQAX_breaF&edm=AABBvjUBAAAA&ccb=7-4&oh=958849efc1ee353d32fb6323e07bce17&oe=610897F4&_nc_sid=83d603'),
+              Container(
+                height: 150,
+                child: ListView(
+                  scrollDirection: Axis.horizontal,
+                  children: [
+                    Image.network('https://instagram.fupg2-2.fna.fbcdn.net/v/t51.2885-15/e35/17819373_283291672112296_542182876012085248_n.jpg?_nc_ht=instagram.fupg2-2.fna.fbcdn.net&_nc_cat=104&_nc_ohc=yLMohoEGPTQAX_breaF&edm=AABBvjUBAAAA&ccb=7-4&oh=958849efc1ee353d32fb6323e07bce17&oe=610897F4&_nc_sid=83d603'),
 
-              Image.network('https://genpi.id/wp-content/uploads/2020/09/Foto-Gambar-Pulau-Bokori-Soropia-Kabupaten-Konawe-Sulawesi-Tenggara-dheswa.jpg'),
+                    Image.network('https://cdn1-production-images-kly.akamaized.net/ixuNdKF_Pe__qwmHseQP_YiS6b4=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2763899/original/080506500_1553789198-WhatsApp_Image_2019-03-28_at_23.36.20.jpeg'),
 
-              Image.network('https://cdn1-production-images-kly.akamaized.net/ixuNdKF_Pe__qwmHseQP_YiS6b4=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2763899/original/080506500_1553789198-WhatsApp_Image_2019-03-28_at_23.36.20.jpeg'),
+                    Image.network('https://genpi.id/wp-content/uploads/2020/09/Foto-Gambar-Pulau-Bokori-Soropia-Kabupaten-Konawe-Sulawesi-Tenggara-dheswa.jpg'),
+                  ],
+                ),
+              ),
+
 
             ],
           ),
