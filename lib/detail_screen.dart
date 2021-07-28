@@ -9,6 +9,8 @@ class DetailScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
 
+            Image.asset('images/Pulau-Bokori.jpg'),
+
             Container(
                 margin: EdgeInsets.only(top: 16.0),
                 child: Text(
@@ -58,6 +60,12 @@ class DetailScreen extends StatelessWidget {
                 style: TextStyle(fontSize: 16.0),
               ),
             ),
+
+            Image.network('https://i2.wp.com/mediakendari.com/wp-content/uploads/2020/01/PSX_20200121_183134.jpg'),
+
+            Image.network('https://genpi.id/wp-content/uploads/2020/09/Foto-Gambar-Pulau-Bokori-Soropia-Kabupaten-Konawe-Sulawesi-Tenggara-dheswa.jpg'),
+            
+            Image.network('https://cdn1-production-images-kly.akamaized.net/ixuNdKF_Pe__qwmHseQP_YiS6b4=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2763899/original/080506500_1553789198-WhatsApp_Image_2019-03-28_at_23.36.20.jpeg'),
 
           ],
         ),
