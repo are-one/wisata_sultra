@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+var informationTextStyle = TextStyle(fontFamily: 'Oxygen');
+
 class DetailScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -19,7 +21,7 @@ class DetailScreen extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: TextStyle(
                         fontSize: 30.0,
-                        fontWeight: FontWeight.bold
+                        fontFamily: 'Staatliches',
                     ),
                   )
               ),
@@ -32,21 +34,30 @@ class DetailScreen extends StatelessWidget {
                       children: <Widget>[
                         Icon(Icons.calendar_today),
                         SizedBox(height: 8.0), // membuat kotak untuk memberi jarak
-                        Text('Open Everydary'),
+                        Text(
+                          'Open Everydary',
+                          style: informationTextStyle,
+                        ),
                       ],
                     ),
                     Column(
                       children: <Widget>[
                         Icon(Icons.access_time),
                         SizedBox(height: 8.0), // membuat kotak untuk memberi jarak
-                        Text('09:00 - 20:00'),
+                        Text(
+                          '09:00 - 20:00',
+                          style: informationTextStyle,
+                        ),
                       ],
                     ),
                     Column(
                       children: <Widget>[
                         Icon(Icons.monetization_on),
                         SizedBox(height: 8.0), // membuat kotak untuk memberi jarak
-                        Text('Rp. 25.000'),
+                        Text(
+                          'Rp. 25.000',
+                          style: informationTextStyle,
+                        ),
                       ],
                     ),
                   ],
@@ -58,7 +69,10 @@ class DetailScreen extends StatelessWidget {
                 child: Text(
                   'Pulau Bokori adalah tempat yang memiliki keindahan alam memukau di Sulawesi Tenggara. Pasti yang melewatkan keindahan tempat ini akan menyesal. Agar bisa sampai pulau satu ini harus menggunakan perahu terlebih dahulu. Setelah selesai menyebrang pasti mata akan dimanjakan dengan view yang luar biasa.',
                   textAlign: TextAlign.center,
-                  style: TextStyle(fontSize: 16.0),
+                  style: TextStyle(
+                    fontSize: 16.0,
+                    fontFamily: 'Oxygen',
+                  ),
                 ),
               ),
 
